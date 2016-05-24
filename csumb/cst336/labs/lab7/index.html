@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>Vanessa CST336 LAB 7</title>
+		<meta name="description" content="">
+		<meta name="author" content="Vanessa">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+        <!-- Jquery library -->
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <!-- css -->
+        <link rel="stylesheet" type="text/css" href="css/lab7CSS.css" />
+	</head>
+<body>
+<div id="wrapper">
+	<div id="header">
+    	<h1>Registration Form</h1>
+    </div>
+<div id="lab">  
+	<!-- STEP 1	-->
+    <form action="catalog.php" method="post">
+    	First Name: <input type="text" name="firstName" /><br /><br />
+        Last Name: <input type="text" name="lastName" /><br /><br />
+        Email: <input type="text" name="email" /><br /><br />
+        Zip Code: <input type="text" id="zipCode" name="zipCode" size="5" /><br /><br />
+        <!--City: <input type="text" id="city" disabled /><br /><br />-->
+        City: <span id="city" ></span><br /><br />
+        
+        State:
+        <select id="state">
+        	<option value="">Select One</option>
+            <option value="AZ">Arizona</option>
+            <option value="CA">California</option>
+            <option value="IL">Illinois</option>
+            <option value="TX">Texas</option>
+        </select>
+        <br />
+        <br />
+        
+        County:
+        <select id="county">
+        
+        </select>
+        <br />
+        <br />
+        
+        Username: <input type="text" id="username" name="username" />
+        <span id="checkUsername"></span>
+        <br /><br />
+        Password: <input type="password" id="password" name="password" />
+        
+        <br /><br />
+        <input type="submit" value="Sign Up!" />
+        
+    </form>
+        
+</div>
+
+<!-- BEGIN SCRIPT -->
+<script>
+
+<!--	STEP 2	-->
+$("#zipCode").change(  function(){ 
+	//alerts for debugging
+	//alert(  $("#zipCode").val()      );
+             
+    $.ajax({
+		type: "get",
+		url: "zip.php",
+	dataType: "json",
+		data: { "zip_code": $("#zipCode").val() },
+		success: function(data,status) {
+			//alerts for debugging
+			//alert(data["city"]);
+			$("#city").html(data["city"]);
+		},
+		complete: function(data,status) { 
+			//optional, used for debugging purposes
+			//alert(status);
+		}
+	});
+             
+              
+} ); //end changeEvent
+
+<!--	STEP 3 -- >
+$("#state").change( function(){
+	//alerts for debugging
+	//alert($("#state").val());
+	
+	$.ajax(	{
+		type: "get",
+		url: "countyList.php",
+	dataType: "json",
+		data: { "state": $("#state").val() },
+	success: function(data,status)	{
+		//alert(data["counties"]);
+			
+		$("#county").html("<option> Select One </option>");
+			for(var i = 0; i < data['counties'].length; i++)	{
+				$("#county").append("<option>" + data["counties"][i].county + "</option>" );
+			}
+			
+	},
+	complete: function(data,status)	{
+		//alerts for debuging
+		//alert(status);
+	}
+	});
+});
+	
+<!--	STEP 4	-->
+$("username").change(	function()	{
+	
+	$.ajax({
+		type: "post",
+		url: "userLookup.php",
+		dataType: "json",
+		data: {"username": $("#username").val() },
+		success: function(data,status)	{
+			//alert for debugging
+			alert(data['exists']);
+		if(data['exists'] == "true")	{
+			$("#checkUsername").html("Username already taken!");
+			$("#checkUsername").css("color","red");
+			$("#username").css("background-color","red");
+			$("#username").focus();
+		}	else	{
+			$("#checkUsername").html("Username available!");
+			$("#checkUsername").css("color","");
+			$("#username").css("background-color","green");
+		}
+		
+		},
+		complete: function(data,status)	{
+			// optional, for debugging
+			alert(status);
+		}
+	});
+	
+});
+</script>
+<!-- END SCRIPT -->
+</div>
+</body>
+</html>

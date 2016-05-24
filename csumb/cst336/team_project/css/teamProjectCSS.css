@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	
+}
+
+#wrapper	{
+	width: 980px;
+	margin: 0 auto;
+	border: 1px solid #000;
+}
+
+#header	{
+	background-color: #ccc;
+	padding: 0;
+	margin: 0;
+	text-align:center;
+}
+
+#menubar	{
+	text-align:center;
+}
+
+#wrapper h3	{
+	text-align: center;	
+}
+
+#mainbody	{
+	padding: 15px;
+}
+
+#CatalogFilter	{
+	margin: auto 0;	
+}
+
+#catalogTable	{
+	margin: 0 auto;
+	border: 1px solid #000;	
+}
+
+#catalogTable tr,td	{
+	border: 1px solid #660000;
+	padding: 5px;
+}
+
+#RegisterTable, #ViewScheduleTable	{
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+
+#CourseDescDetailsTable	{
+	margin: 0 auto;
+	border-collapse: seperate;
+	border: none;	
+}
+
+#RegisterTable	{
+	text-align:center;
+	vertical-align: middle;	
+}

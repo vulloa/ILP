@@ -1,0 +1,79 @@
+body	{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	background-color: #fff;
+	color: #111;
+	line-height: normal;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;	
+	text-transform: lowercase;
+}
+#wrapper	{
+	width: 980px;
+	margin: 0 auto;	
+	margin-top: 75px;
+	border: 1px solid #660000;
+}
+#wrapper #header	{
+	background: #ccc;
+	margin: 0 auto;
+	padding: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	width: 100%;
+	border-bottom: 1px dashed #660000;
+}
+
+.SubmitButton	{
+	background-color: #ccc;
+	color: #660000;
+	font-weight: bold;
+	text-decoration: none;
+	cursor: default;
+	border: none;
+	padding: 5px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+.SubmitButton:hover	{
+	box-shadow: 0px 0px 3px #660000;
+}
+#wrapper h1 {
+	color: #666666;
+	font-size: 28px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	text-align: center;
+	text-shadow: 1px 1px #660000;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 10px;
+}
+#wrapper h3	{
+	color: #333;
+	font-size: 18px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 10px;
+}
+#wrapper span	{ /*	Label Text Style	*/
+	font-size: 18px;
+	color: #660000;	
+	font-weight: bold;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+#StepOne,#StepTwo,#NumToRoman {
+	margin: 0 auto;
+	margin-bottom: 25px;
+	width: 80%;
+	border: 1px solid #333;
+	padding: 10px;
+	text-align: center;
+}
+
+#NumToRoman span	{
+	font-size: 48px;
+	color: #660000;
+	text-transform: uppercase !important;	
+}

@@ -1,0 +1,170 @@
+
+body {
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	background-color: 	#ffffff;
+	color: #111111;
+	line-height: normal;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper	{
+	width: 980px;
+	margin: 0 auto;
+}
+
+/** LINKS **/
+
+a	{
+	font-size:inherit;
+	text-decoration: none;	
+	font-weight:600;
+}
+
+a:link	{
+	color: #330000;
+}
+
+a:visited	{
+	color: #660000;
+}
+
+a:hover	{
+	color: #4c4c4c;
+}
+
+a:active	{
+	color: #cccccc;
+}
+
+/** HEADER **/
+#header h1	{
+	font-size: 52px;
+	text-align:center;
+	color: #ffffff;
+	text-transform: lowercase;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	padding-top: 25px;
+	text-shadow: 2px 2px 0 #000;
+}
+
+#header	{
+	background-color: #660000;
+	padding-bottom: 15px;
+	margin-top: -50px;
+	border-bottom: dashed 5px #000;
+}
+
+#header span{
+	font-size: 32.5px;
+	color: #ccc;
+}
+
+/** ABOUT **/
+
+#about	{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 10px;;
+}
+
+img	{
+	float: right;
+	border: dashed 5px #000;
+	margin-left: 0;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+
+.about	p{
+	text-align:justify;
+	text-justify:inter-word;
+	width: 55%;
+	margin-right: 0;
+}
+
+.about span{
+	font-size: 57px;
+	float:left;
+	padding-right: 10px;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+
+/** WORK **/
+
+#work	{
+	margin-top: 50px;
+	border-top: dashed 2px #000;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#work h1	{
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-size: 32.5px;
+	text-align: center;
+	text-transform:lowercase;
+	text-shadow: 2px 2px 0 #330000;
+	color: #777;
+		
+}
+
+#work table{
+	text-align:justify;
+	border-collapse: collapse;
+	width: auto;
+	margin: 0 auto;
+	margin-top: 15px;;
+	
+}
+
+#work th{
+	font-weight: normal;
+	background-color: #660000;
+	color: #ccc;
+	text-align: center;
+	font-size: 18px;
+	padding: 5px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	width: 320px;
+	text-shadow: 2px 2px 0 #000;
+	/**
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	**/
+}
+
+#work td{
+	vertical-align: top;
+	line-height: 20px;
+}
+
+#work ul{
+	margin: 0;
+	padding: 0;
+	text-align:center;
+	list-style-type:none;	
+}
+
+/** FOOTER **/
+
+#footer	{
+	width: 100%;
+	background-color: #660000;
+	margin-bottom: -10px;	
+	margin-top: 25px;
+	padding-bottom: 20px;
+	color: #fff;
+	border-top: dashed 5px #000;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+
+#footer p	{
+	text-transform:uppercase;
+	text-align: left;	
+}

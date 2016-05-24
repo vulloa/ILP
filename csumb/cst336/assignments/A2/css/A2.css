@@ -1,0 +1,70 @@
+
+body {
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	background-color: 	#ffffff;
+	color: #111111;
+	line-height: normal;
+	font-size: 14px;
+}
+
+
+
+/** assignment	**/
+table	{
+	margin: 0 auto;
+	border-collapse: collapse;
+	padding: 10px;
+	vertical-align: middle;
+	text-align: center;
+	width: 720px;
+	margin-top: 5%;
+}
+
+.instr	{
+	font-size: 14px;
+	color: #111;
+	border-bottom: 2px dashed #000;
+	padding-bottom: 10px;
+}
+
+.instr2	{
+	font-size: 24px;
+	color: #333;
+	font-weight: bold;
+}
+
+.todaysdate	{
+	font-size: 48px;
+	color: #660000;
+	text-transform: lowercase;
+}
+
+.todaysdate span	{
+	color: #ccc;
+	text-shadow: 2px 2px 0 #660000;
+}
+
+tr,td	{
+	/*border: 1px solid #000;*/
+	width: 240px;
+}
+
+.RomanValueEven	{
+	font-size: 36px;
+	color: #660000;
+	font-weight: bold;
+	text-align: center;
+}
+
+.RomanValueOdd	{
+	font-size: 36px;
+	color: #333;
+	font-weight: bold;
+	text-align: center;
+}
+.RomanValueZero	{
+	font-size: 36px;
+	color: #000;
+	font-weight: bold;
+	text-align: center;
+}

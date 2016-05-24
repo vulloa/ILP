@@ -1,0 +1,77 @@
+-- phpMyAdmin SQL Dump
+-- version 3.5.8.2
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost
+-- Generation Time: Feb 02, 2015 at 08:33 PM
+-- Server version: 5.5.31-cll
+-- PHP Version: 5.3.3
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+--
+-- Database: `ullo4940`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `schedule`
+--
+
+CREATE TABLE IF NOT EXISTS `schedule` (
+  `SectionID` int(11) NOT NULL DEFAULT '0',
+  `CourseID` varchar(10) DEFAULT NULL,
+  `InstructorID` int(11) DEFAULT NULL,
+  `Days` varchar(10) DEFAULT NULL,
+  `Time` varchar(20) DEFAULT NULL,
+  PRIMARY KEY (`SectionID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `schedule`
+--
+
+INSERT INTO `schedule` (`SectionID`, `CourseID`, `InstructorID`, `Days`, `Time`) VALUES
+(16265, 'BUS 340', 116, 'TTh', '09:00AM-10:20AM'),
+(16660, 'BUS 345', 119, 'MW', '10:30AM-11:50AM'),
+(16776, 'CISC 320', 103, 'W', '01:00PM-02:50PM'),
+(16858, 'CISC 310', 102, 'TTh', '09:00AM-10:20AM'),
+(16867, 'BUS 498', 121, 'TBA', 'TBA'),
+(17018, 'BUS 350', 120, 'TTh', '01:00PM-02:20PM'),
+(17071, 'BUS 330', 118, 'T', '05:30PM-06:50PM'),
+(17073, 'CISC 305', 101, 'Th', '01:00PM-02:20PM'),
+(17216, 'CISC 323', 104, 'TBA', 'TBA'),
+(17218, 'CISC 324', 104, 'TBA', 'TBA'),
+(17421, 'BUS 269', 114, 'W', '06:00PM-08:50PM'),
+(17735, 'BUS 310', 117, 'TBA', 'TBA'),
+(17778, 'BUS 320', 118, 'MW', '09:00AM-10:20AM'),
+(17881, 'BUS 105', 112, 'TTh', '01:00PM-02:20PM'),
+(18036, 'CISC 300', 100, 'TTh', '10:00AM-10:50AM'),
+(18176, 'BUS 300', 116, 'MW', '07:30AM-08:50AM'),
+(18261, 'BUS 260', 113, 'W', '06:00PM-08:50PM'),
+(18262, 'BUS 265', 114, 'W', '06:00PM-08:50PM'),
+(18263, 'BUS 266', 115, 'W', '06:00PM-08:50PM'),
+(18264, 'BUS 267', 115, 'W', '06:00PM-08:50PM'),
+(20083, 'MATH 100', 109, 'MW', '02:00PM-04:20PM'),
+(20088, 'MATH 120', 111, 'MW', '02:30PM-04:50PM'),
+(20089, 'BUS 100', 112, 'TTh', '02:30PM-03:50PM'),
+(20182, 'MATH 110', 110, 'MW', '12:00PM-02:20PM'),
+(20195, 'MATH 335', 110, 'MW', '03:00PM-05:20PM'),
+(20254, 'ART 300', 122, 'F', '12:00PM-01:50PM'),
+(20256, 'ART 302', 122, 'F', '12:00PM-01:50PM'),
+(20279, 'ENGWR 101', 105, 'MW', '03:30PM-05:35PM'),
+(20281, 'ENGWR 300', 106, 'MW', '08:00AM-09:20AM'),
+(20290, 'ENGWR 301', 107, 'TTh', '09:30AM-10:50AM'),
+(20292, 'ENGWR 302', 108, 'TTh', '02:00PM-03:20PM');
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

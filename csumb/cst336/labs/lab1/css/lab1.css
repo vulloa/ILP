@@ -1,0 +1,99 @@
+
+body	{
+	background-color: #7C7C7C;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+#wrapper	{
+	background-color: #B3DEC9;
+	margin: 0 auto;
+	width: 980px;	
+	padding-left: 15px;
+	padding-right: 15px;
+	border: solid #1C4330;
+}
+
+nav	{
+	background-color: #4AAF7E;
+	text-align: center; 	
+	height: 35px;
+	vertical-align: middle;
+	padding: 0;
+	margin: 0;
+}
+
+nav span{
+	padding-left: 15px;
+	padding-right: 15px;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	text-transform: uppercase;
+	vertical-align: middle;
+}
+
+h1,h2,h3	{
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-style:italic;
+	text-transform: lowercase;
+	color: #1C4330;
+	text-shadow: 1px 1px 0 #7c7c7c;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+h1	{
+	font-size: 52px;
+}
+
+h3	{
+	font-size: 42.5px;
+		
+}
+
+img	{
+	float: right;	
+	margin: 10px;
+	border: solid #1C4330;
+}
+
+a	{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+a:link,a:visited	{
+	color: #1C4330;
+}
+a:hover,a:active	{
+	color: #7C7C7C;
+}
+
+.currentPage	{
+	color: #1C4330;	
+	border-bottom: dashed 1px #000;
+}
+
+table	{
+	border-collapse: collapse;	
+}
+
+
+table #title	{
+	background-color: 	#4AAF7E;	
+	font-size: 32.5px;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	text-transform:lowercase;
+}
+
+table .row1 {
+	background-color: #49AF9F;
+	padding: 5px;
+}
+
+table .row2 {
+	background-color: #49AF5C;
+}
+
+table #public	{
+	background-color: #8FCFB0	;
+}
