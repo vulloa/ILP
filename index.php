@@ -14,6 +14,7 @@
     	<span>vanessa ulloa</span>
     </div>
     <div id="menubar">
+        <!--
     	<ul>
         	<li><a href="index.php">Home</a></li>
             <li>|</li>
@@ -23,6 +24,40 @@
             <li>|</li>
             <li><a href="finalMLO.php">Final MLO's</a></li>
             <li>|</li>
+        </ul>
+        -->
+        <ul>
+            <li><a href="index.php">Home</a></li>
+            <li>|</li>
+            <li>
+                <a href="coreMLO.php">Core MLO's</a>
+                <ul>
+                    <li>Professional and Communication Development</li>
+                    <li>Mathematics for Computing</li>
+                    <li>Programming and Problem Solving</li>
+                    <li>Computers and Networks</li>
+                    <li>Interaction Design</li>
+                </ul>
+            </li>
+            <li>|</li>
+            <li>
+                <a href="concentrationMLO.php">Concentration MLO's</a>
+                <ul>
+                    <li>Advanced Programming</li>
+                    <li>Specialized Programming</li>
+                    <li>Software Applications</li>
+                </ul>
+            </li>
+            <li>|</li>
+            <li>
+                <a href="finalMLO.php">Final MLO's</a>
+                <ul>
+                    <li>Service to the Community</li>
+                    <li>CSIT Elective</li>
+                    <li>Ethics</li>
+                    <li>Capstone</li>
+                </ul>
+            </li>
         </ul>
     </div>
     <div id="content">

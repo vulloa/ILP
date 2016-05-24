@@ -28,32 +28,52 @@ span{
 
 /*	MENU */
 #menubar{
-	text-align:center;	
+	text-align:center;
+	margin: 0;
+	padding: 0;
 }
 
-	/*	MENU LINKS */
-	
-	#menubar a{
-		text-decoration: none;
-		color: #660000;
-		text-transform: lowercase;	
-	}
-	
-	#menubar a:link{
-		color: #666;	
-	}
-	
-	#menubar a:hover{
-		border-bottom: 1px dashed #000;	
-	}
-	
-	#menubar a:visited{
-		color: #666;	
-	}
-
-#menubar ul li{
-	display: inline;
+#menubar ul{
+	margin: 0;
+	padding: 0;
+	height: 30px;
 }
+
+#menubar li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	position: relative;
+    font-size: 10px;
+}
+
+#menubar ul li a{
+	text-align: center;
+	text-decoration: none;
+	height: 30px;
+	width: 150px;
+	display: block;
+	padding-top: 7px;
+}
+
+#menubar ul ul {
+	position: absolute;
+	visibility: hidden;
+	top: 30px;
+}
+
+#menubar ul li:hover ul{
+	visibility: visible;
+}
+
+#menubar li:hover{
+}
+
+#menubar ul li:hover ul li a:hover{
+	color: #660000;
+}
+
 
 /*	CONTENT */
 #content	{
