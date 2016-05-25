@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Vanessa Ulloa ILP</title>
+<title>Vanessa Ulloa CST 499 ILP</title>
 
 <link href="css/madebynessa_css.css" rel="stylesheet" type="text/css">
 </head>
