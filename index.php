@@ -69,6 +69,7 @@
         <p>
             <ul>
                 <li><a href="https://www.linkedin.com/in/vanessa-ulloa-8a131093">LinkedIn</a></li>
+                <li>Resume - available upon request.</li>
             </ul>
         </p>
         <img src="images/csumb_logo.png" width="300" height="179" id="logo" />
