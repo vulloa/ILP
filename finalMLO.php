@@ -59,11 +59,6 @@
                     <span>
                     	<ul>
                         	<li>CST 499: Capstone</li>
-                            <ul>
-                                <li>Capstone Proposal</li>
-                                <li>Capstone Report</li>
-                                <li>Capstone Project</li>
-                            </ul>
                         </ul>
                     </span>
                 </dd>

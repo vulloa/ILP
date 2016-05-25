@@ -112,10 +112,12 @@ span{
 #content	{
 	margin-top: 50px;
 	margin-bottom: 50px;
+	border-left: 1px dashed #000;
+	border-right: 1px dashed #000;
 }
 
 #content dt{
-	border-bottom: 1px dashed #ccc;
+	border-bottom: 1px dashed #ccc;	
 	width: 50%;
 	margin-left: 5%;
 	padding-top: 10px;
@@ -123,7 +125,6 @@ span{
 }
 
 #content dd{
-    border-bottom: 1px #ccc dashed;
 	margin-left: 10%;
 	font-size: 12px;
 	padding-top: 2.5px;	
@@ -155,5 +156,6 @@ img {
 /*	FOOTER */
 
 #footer	{
+	border-top: 1px dashed #000;
 	padding-top: 25px;	
 }
