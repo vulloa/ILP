@@ -14,7 +14,6 @@
     	<span>vanessa ulloa</span>
     </div>
     <div id="menubar">
-        <!--
     	<ul>
         	<li><a href="index.php">Home</a></li>
             <li>|</li>
@@ -25,7 +24,8 @@
             <li><a href="finalMLO.php">Final MLO's</a></li>
             <li>|</li>
         </ul>
-        -->
+        <!--
+        Drop down menus
         <ul>
             <li><a href="index.php">Home</a></li>
             <li>|</li>
@@ -59,25 +59,18 @@
                 </ul>
             </li>
         </ul>
+        -->
     </div>
     <div id="content">
-    	<dl>
-        	<dt>Core Major Learning Outcomes (Core MLO's)</dt>
-                <dd>Professional and Communication Development</dd>
-                <dd>Programming and Problem Solving</dd>
-                <dd>Mathematics for Computing</dd>
-                <dd>Knowledge of Computers and Networks</dd>
-                <dd>Interaction Design</dd>
-            <dt>Concentration MLO's (Software Engineering)</dt>
-                <dd>Advanced Programming</dd>
-                <dd>Specialized Programming</dd>
-                <dd>Planning, Analysis, and Production of Software Applications</dd>
-            <dt>Final Major Learning Outcomes (Final MLO's)</dt>
-                <dd>Service to the Community</dd>
-                <dd>CSIT Elective</dd>
-                <dd>Ethics in Major</dd>
-                <dd>Capstone Project</dd>
-        </dl>
+        <img src="images/vanessa_2.jpg" width="300" height="300" />
+        <p>My name is Vanessa Ulloa, I work in the Medical Device Industry and am a recent graduate from California State University at Monterey Bay. </p>
+        <p>I received my Bachelor's degree in Computer Science and Information Technology with a focus in Software Engineering.</p>
+        <br />
+        <p>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/vanessa-ulloa-8a131093">LinkedIn</a></li>
+            </ul>
+        </p>
     </div>
     <div id="footer">
     	
