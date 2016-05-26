@@ -55,7 +55,7 @@
         </dl>
     </div>
     <div id="footer">
-    	
+        Vanessa Ulloa | 2016 | CST 499
     </div>
 </div>
 
