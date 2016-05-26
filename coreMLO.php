@@ -32,7 +32,7 @@
                 	Professional and Communication Development<br />
                     <span>
                     	<ul>
-                        	<li>CST 300: ProSeminar</li>
+                        	<li><a href="">CST 300: ProSeminar</a></li>
                         </ul>
                     </span>
                 </dd>
@@ -40,7 +40,7 @@
                 	Programming and Problem Solving
                     <span>
                     	<ul>
-                        	<li>CST 231: Probleing Solving & Programming C++</li>
+                        	<li>CST 231: Problem Solving & Programming C++</li>
                             <li>CST 238: Introduction to Data Structures</li>
                         </ul>
                     </span>

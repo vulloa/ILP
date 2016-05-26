@@ -32,7 +32,7 @@
                 	Service to the Community
                     <span>
                     	<ul>
-                        	<li>CST 361S: CS and Community Service</li>
+                        	<li><a href="">CST 361S: CS and Community Service</a></li>
                         </ul>
                     </span>
                 </dd>
@@ -59,6 +59,11 @@
                     <span>
                     	<ul>
                         	<li>CST 499: Capstone</li>
+                            <ul>
+                                <li><a href="csumb/cst499/VEU_CST499_Final%20Research%20Proposal.pdf">Capstone Proposal</a></li>
+                                <li>Capstone Report</li>
+                                <li>Capstone Project</li>
+                            </ul>
                         </ul>
                     </span>
                 </dd>

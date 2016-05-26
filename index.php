@@ -62,7 +62,7 @@
         -->
     </div>
     <div id="content">
-        <img src="images/vanessa_2.jpg" width="300" height="300" />
+        <img src="images/vanessa_1.jpg" id="mypicture" />
         <p>My name is Vanessa Ulloa, I work in the Medical Device Industry and am a recent graduate from California State University at Monterey Bay. </p>
         <p>I received my Bachelor's degree in Computer Science and Information Technology with a focus in Software Engineering.</p>
         <br />
@@ -71,9 +71,10 @@
                 <li><a href="https://www.linkedin.com/in/vanessa-ulloa-8a131093">LinkedIn</a></li>
             </ul>
         </p>
+        <img src="images/csumb_logo.png" width="300" height="179" id="logo" />
     </div>
     <div id="footer">
-    	
+    	Vanessa Ulloa | 2016 | CST 499
     </div>
 </div>
 

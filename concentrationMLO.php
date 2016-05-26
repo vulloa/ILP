@@ -32,7 +32,7 @@
                 	Advanced Programming
                     <span>
                     	<ul>
-                        	<li>CST 338: Software Design</li>
+                        	<li><a href="">CST 338: Software Design</a></li>
                         </ul>
                     </span>
                 </dd>
@@ -40,7 +40,7 @@
                 	Specialized Programming
                     <span>
                     	<ul>
-                        	<li>CST 336: Internet Programming</li>
+                        	<li><a href="https://github.com/vulloa/ILP/tree/master/csumb/cst336">CST 336: Internet Programming</a></li>
                         </ul>
                     </span>
                 </dd>
@@ -48,7 +48,7 @@
                 	Planning, Analysis, and Production of Software Applications
                     <span>
                     	<ul>
-                        	<li>CST 438: Software Engineering</li>
+                        	<li><a href="">CST 438: Software Engineering</a></li>
                         </ul>
                     </span>
                 </dd>
