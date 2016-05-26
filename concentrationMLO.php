@@ -32,7 +32,7 @@
                 	Advanced Programming
                     <span>
                     	<ul>
-                        	<li><a href="">CST 338: Software Design</a></li>
+                        	<li><a href="https://github.com/vulloa/ILP/tree/master/csumb/cst338">CST 338: Software Design</a></li>
                         </ul>
                     </span>
                 </dd>
@@ -48,7 +48,7 @@
                 	Planning, Analysis, and Production of Software Applications
                     <span>
                     	<ul>
-                        	<li><a href="">CST 438: Software Engineering</a></li>
+                        	<li><a href="https://github.com/vulloa/ILP/tree/master/csumb/cst438/Team11_Wormhole">CST 438: Software Engineering</a></li>
                         </ul>
                     </span>
                 </dd>
