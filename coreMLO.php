@@ -42,6 +42,7 @@
                     	<ul>
                         	<li>CST 231: Problem Solving & Programming C++</li>
                             <li>CST 238: Introduction to Data Structures</li>
+                            <ul><li class="otherSchool">CO SCI 440 @ Los Angeles Mission College</li></ul>
                         </ul>
                     </span>
                 </dd>
@@ -50,9 +51,13 @@
                     <span>
                     	<ul>
                         	<li>MATH 170: Discrete Math</li>
+                            <ul><li class="otherSchool">CSIS 213 @ MSJC</li></ul>
                             <li>MATH 150: Calculus I</li>
+                            <ul><li class="otherSchool">Math 211 @ College of the Canyons</li></ul>
                             <li>MATH 151: Calculus II</li>
+                            <ul><li class="otherSchool">Math 266 @ Los Angeles Valley College</li></ul>
                             <li>MATH 370: Logic & Computation</li>
+                            <ul><li class="otherSchool"></li></ul>
                         </ul>
                     </span>
                 </dd>

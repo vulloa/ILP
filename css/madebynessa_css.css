@@ -160,6 +160,12 @@ body {
     padding-left: 20px;
 }
 
+.otherSchool {
+	font-style: italic;
+	font-size: 10px;
+	list-style-type: circle;
+}
+
 /*	FOOTER */
 
 #footer	{
