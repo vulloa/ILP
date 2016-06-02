@@ -66,7 +66,7 @@
                                 <p><span>Example Coursework:</span></p>
                                 <p>
                                     <ul>
-                                        <li><a href="">Final Project</a></li>
+                                        <li><a href="https://github.com/vulloa/ILP/tree/master/csumb/cst238/FINAL%20PROJECT">Final Project</a></li>
                                     </ul>
                                 </p>
                             </div>

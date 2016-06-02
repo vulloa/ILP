@@ -87,8 +87,6 @@
                                 <ul><li class="csumbSchool">CSUMB</li></ul>
                                 <p><span>Description:</span></p>
                                 <p>Investigates through an ethical perspective how communication technology affects our lives. Discusses individual and institutional values represented through technological choices. Using case studies and current events, explores such issues as intellectual property rights, information access and privacy, and the digital divide.</p>
-                                <p><span>Example Coursework:</span></p>
-                                <p></p>
                             </div>
                         </ul>
                     </span>
@@ -99,9 +97,9 @@
                     	<ul>
                             <div class="classDiv">
                                 <li>CST 499: Capstone</li>
-                                <ul><li class="csumbSchool">CSUMB</li></ul>
+                                <ul><li class="csumbSchool">CSUMB - Summer 2016</li></ul>
                                 <p><span>Description:</span></p>
-                                <p></p>
+                                <p>Students will work on a project in large groups (up to 5 students in each group), developing requirements specification, a solution plan followed by design and implementation of the solution. The problem statement for the projects will be selected by the faculty. Faculty will also play the role of a project manager directing the schedule and deliverables for these projects. </p>
                                 <p><span>Example Coursework:</span></p>
                                 <p>
                                     <ul>
