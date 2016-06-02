@@ -32,7 +32,14 @@
                 	Service to the Community
                     <span>
                     	<ul>
-                        	<li><a href="">CST 361S: CS and Community Service</a></li>
+                            <div class="classDiv">
+                        	    <li><a href="">CST 361S: CS and Community Service</a></li>
+                                <ul><li class="otherSchool"></li></ul>
+                                <p><span>Description:</span></p>
+                                <p>A service learning course in which students apply computer literacy, multimedia design, and technology to assist schools, nonprofit organizations, and community agencies. The theme for the course is "Bridging the Digital Divide." Note: students must participate in required service placements with hours to be arranged. Students must be able to create and manage a web site.</p>
+                                <p><span>Example Coursework:</span></p>
+                                <p></p>
+                            </div>
                         </ul>
                     </span>
                 </dd>
@@ -40,10 +47,30 @@
                 	CSIT Elective
                     <span>
                     	<ul>
-                        	<li>CST 234: Operating Systems</li>
-                            <ul><li class="otherSchool"></li></ul>
-                            <li>CST 311: Intro to Comp Net</li>
-                            <li>CST 363: Database Management</li>
+                            <div class="classDiv">
+                                <li>CST 234: Operating Systems</li>
+                                <ul><li class="otherSchool"></li></ul>
+                                <p><span>Description:</span></p>
+                                <p></p>
+                                <p><span>Example Coursework:</span></p>
+                                <p></p>
+                            </div>
+                            <div class="classDiv">
+                                <li>CST 311: Intro to Comp Net</li>
+                                <ul><li class="csumbSchool">CSUMB</li></ul>
+                                <p><span>Description:</span></p>
+                                <p></p>
+                                <p><span>Example Coursework:</span></p>
+                                <p></p>
+                            </div>
+                            <div class="classDiv">
+                                <li>CST 363: Database Management</li>
+                                <ul><li class="csumbSchool">CSUMB</li></ul>
+                                <p><span>Description:</span></p>
+                                <p></p>
+                                <p><span>Example Coursework:</span></p>
+                                <p></p>
+                            </div>
                         </ul>
                     </span>
                 </dd>
@@ -51,7 +78,14 @@
                 	Ethics in Major
                     <span>
                     	<ul>
-                        	<li>CST 373: Ethics in Tech & Comm</li>
+                            <div class="classDiv">
+                                <li>CST 373: Ethics in Tech & Comm</li>
+                                <ul><li class="csumbSchool">CSUMB</li></ul>
+                                <p><span>Description:</span></p>
+                                <p></p>
+                                <p><span>Example Coursework:</span></p>
+                                <p></p>
+                            </div>
                         </ul>
                     </span>
                 </dd>
@@ -59,12 +93,20 @@
                 	Capstone Project
                     <span>
                     	<ul>
-                        	<li>CST 499: Capstone</li>
-                            <ul>
-                                <li><a href="csumb/cst499/VEU_CST499_Final%20Research%20Proposal.pdf">Capstone Proposal</a></li>
-                                <li>Capstone Report</li>
-                                <li>Capstone Project</li>
-                            </ul>
+                            <div class="classDiv">
+                                <li>CST 499: Capstone</li>
+                                <ul><li class="csumbSchool">CSUMB</li></ul>
+                                <p><span>Description:</span></p>
+                                <p></p>
+                                <p><span>Example Coursework:</span></p>
+                                <p>
+                                    <ul>
+                                        <li><a href="">Capstone Proposal</a></li>
+                                        <li><a href="">Capstone Report</a></li>
+                                        <li><a href="">Capstone Project</a></li>
+                                    </ul>
+                                </p>
+                            </div>
                         </ul>
                     </span>
                 </dd>
