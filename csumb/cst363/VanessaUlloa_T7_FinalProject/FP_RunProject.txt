@@ -1,0 +1,66 @@
+SQL> --SPOOL C:\Users\ulloav\Desktop\FP_RunProject.txt
+SQL> 
+SQL> PROMPT
+
+SQL> PROMPT ***      USS ENTERPRISE COMMUNITY COLLEGE	     ***
+***	USS ENTERPRISE COMMUNITY COLLEGE	***
+SQL> PROMPT
+
+SQL> 
+SQL> --      VIEW STUDENT SCHEDULE
+SQL> 	     --      GET USER STUDENT ID TO DISPLAY SCHEDULE
+SQL> 
+SQL> 
+SQL> --      QUERY FOR SCHEDULE
+SQL> 
+SQL> PROMPT
+
+SQL> PROMPT ***      To View Schedule, Please enter Student ID [1/2/3/4/5]
+***	To View Schedule, Please enter Student ID [1/2/3/4/5]
+SQL> PROMPT
+
+SQL> ACCEPT user_stu_id PROMPT "Student ID: ";
+Student ID: 1
+SQL> PROMPT
+
+SQL> --PROMPT TO CHECK USER INPUT
+SQL> --PROMPT '&user_stu_id'
+SQL> 
+SQL> 
+SQL> SELECT
+  2  	     '***    SCHEDULE FOR ' || TRIM(f_name) || ' ' || TRIM(l_name)
+  3  FROM FP_STUDENT
+  4  WHERE student_id = TRIM('&user_stu_id');
+old   4: WHERE student_id = TRIM('&user_stu_id')
+new   4: WHERE student_id = TRIM('1')
+
+'***SCHEDULEFOR'||TRIM(F_NAME)||''||TRIM(L_NAME)                                
+--------------------------------------------------------------------            
+***	SCHEDULE FOR Vanessa Ulloa                                                  
+
+SQL> 
+SQL> SELECT
+  2  	     LPAD(RTRIM(C.course_name),10,' ') || ' ' ||
+  3  	     LPAD(RTRIM(C.class_day),4,' ') || ' ' ||
+  4  	     LPAD(RTRIM(C.class_time),10,' ') || ' ' ||
+  5  	     LPAD(RTRIM(P.professor_fname) || ' ' ||
+  6  	     RTRIM(P.professor_lname),15,' ')
+  7  FROM FP_STU_ENROLL E, FP_CLASS C, FP_COURSE_DETAILS CD, FP_PROFESSOR P
+  8  WHERE E.section_number = C.section_number
+  9  	     AND C.section_number = CD.section_number
+ 10  	     AND CD.professor_id = P.professor_id
+ 11  	     AND E.student_id = '&user_stu_id';
+old  11: 	AND E.student_id = '&user_stu_id'
+new  11: 	AND E.student_id = '1'
+
+LPAD(RTRIM(C.COURSE_NAME),10,'')||''||LPAD                                      
+------------------------------------------                                      
+  Math 100   MW  1300-1600 Montgomery Scot                                      
+   Eng 101    F  1200-1700     Nyota Uhura                                      
+ Psych 101    S  0800-1200   Leonard McCoy                                      
+
+SQL> --      END SCHEDULE
+SQL> 
+SQL> PROMPT
+
+SQL> SPOOL OFF

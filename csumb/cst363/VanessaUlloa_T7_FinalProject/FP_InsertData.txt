@@ -1,0 +1,328 @@
+SQL> 
+SQL> INSERT INTO FP_COURSE VALUES('Math 100','Mathematics');
+
+1 row created.
+
+SQL> INSERT INTO FP_COURSE VALUES('Math 200','Mathematics');
+
+1 row created.
+
+SQL> INSERT INTO FP_COURSE VALUES('Eng 101','English');
+
+1 row created.
+
+SQL> INSERT INTO FP_COURSE VALUES('Hist 111','History');
+
+1 row created.
+
+SQL> INSERT INTO FP_COURSE VALUES('Psych 101','Psychology');
+
+1 row created.
+
+SQL> INSERT INTO FP_COURSE VALUES('Math 300','Mathematics');
+
+1 row created.
+
+SQL> INSERT INTO FP_COURSE VALUES('Eng 201','English');
+
+1 row created.
+
+SQL> INSERT INTO FP_COURSE VALUES('Psych 201','Psychology');
+
+1 row created.
+
+SQL> INSERT INTO FP_COURSE VALUES('Hist 211','History');
+
+1 row created.
+
+SQL> INSERT INTO FP_COURSE VALUES('Eng 301','English');
+
+1 row created.
+
+SQL> INSERT INTO FP_COURSE VALUES('Bio 101','Science');
+
+1 row created.
+
+SQL> INSERT INTO FP_COURSE VALUES('Bio 201','Science');
+
+1 row created.
+
+SQL> 
+SQL> INSERT INTO FP_CLASS VALUES('123456','Math 100','MW','1300-1600');
+
+1 row created.
+
+SQL> INSERT INTO FP_CLASS VALUES('234567','Math 200','TTH','0800-1200');
+
+1 row created.
+
+SQL> INSERT INTO FP_CLASS VALUES('345678','Eng 101','F','1200-1700');
+
+1 row created.
+
+SQL> INSERT INTO FP_CLASS VALUES('456789','Hist 111','MW','1700-2200');
+
+1 row created.
+
+SQL> INSERT INTO FP_CLASS VALUES('567890','Psych 101','S','0800-1200');
+
+1 row created.
+
+SQL> INSERT INTO FP_CLASS VALUES('678901','Math 300','MW','0800-1200');
+
+1 row created.
+
+SQL> INSERT INTO FP_CLASS VALUES('789012','Eng 201','S','0800-1200');
+
+1 row created.
+
+SQL> INSERT INTO FP_CLASS VALUES('890123','Psych 201','TH','0700-1100');
+
+1 row created.
+
+SQL> INSERT INTO FP_CLASS VALUES('901234','Hist 211','T','1700-2200');
+
+1 row created.
+
+SQL> INSERT INTO FP_CLASS VALUES('654321','Eng 301','F','0800-1200');
+
+1 row created.
+
+SQL> INSERT INTO FP_CLASS VALUES('765432','Bio 101','MW','0800-1200');
+
+1 row created.
+
+SQL> INSERT INTO FP_CLASS VALUES('876543','Bio 201','TTH','0800-1200');
+
+1 row created.
+
+SQL> 
+SQL> INSERT INTO FP_COURSE_DETAILS VALUES('123456','30');
+
+1 row created.
+
+SQL> INSERT INTO FP_COURSE_DETAILS VALUES('234567','30');
+
+1 row created.
+
+SQL> INSERT INTO FP_COURSE_DETAILS VALUES('345678','50');
+
+1 row created.
+
+SQL> INSERT INTO FP_COURSE_DETAILS VALUES('456789','10');
+
+1 row created.
+
+SQL> INSERT INTO FP_COURSE_DETAILS VALUES('567890','20');
+
+1 row created.
+
+SQL> INSERT INTO FP_COURSE_DETAILS VALUES('678901','30');
+
+1 row created.
+
+SQL> INSERT INTO FP_COURSE_DETAILS VALUES('789012','50');
+
+1 row created.
+
+SQL> INSERT INTO FP_COURSE_DETAILS VALUES('890123','20');
+
+1 row created.
+
+SQL> INSERT INTO FP_COURSE_DETAILS VALUES('901234','10');
+
+1 row created.
+
+SQL> INSERT INTO FP_COURSE_DETAILS VALUES('654321','50');
+
+1 row created.
+
+SQL> INSERT INTO FP_COURSE_DETAILS VALUES('765432','40');
+
+1 row created.
+
+SQL> INSERT INTO FP_COURSE_DETAILS VALUES('876543','40');
+
+1 row created.
+
+SQL> 
+SQL> INSERT INTO FP_STU_ENROLL VALUES('1','123456');
+
+1 row created.
+
+SQL> INSERT INTO FP_STU_ENROLL VALUES('1','345678');
+
+1 row created.
+
+SQL> INSERT INTO FP_STU_ENROLL VALUES('1','567890');
+
+1 row created.
+
+SQL> INSERT INTO FP_STU_ENROLL VALUES('2','123456');
+
+1 row created.
+
+SQL> INSERT INTO FP_STU_ENROLL VALUES('2','654321');
+
+1 row created.
+
+SQL> INSERT INTO FP_STU_ENROLL VALUES('2','876543');
+
+1 row created.
+
+SQL> INSERT INTO FP_STU_ENROLL VALUES('3','901234');
+
+1 row created.
+
+SQL> INSERT INTO FP_STU_ENROLL VALUES('3','654321');
+
+1 row created.
+
+SQL> INSERT INTO FP_STU_ENROLL VALUES('3','765432');
+
+1 row created.
+
+SQL> INSERT INTO FP_STU_ENROLL VALUES('4','678901');
+
+1 row created.
+
+SQL> INSERT INTO FP_STU_ENROLL VALUES('4','789012');
+
+1 row created.
+
+SQL> INSERT INTO FP_STU_ENROLL VALUES('4','890123');
+
+1 row created.
+
+SQL> INSERT INTO FP_STU_ENROLL VALUES('5','789012');
+
+1 row created.
+
+SQL> INSERT INTO FP_STU_ENROLL VALUES('5','890123');
+
+1 row created.
+
+SQL> INSERT INTO FP_STU_ENROLL VALUES('5','901234');
+
+1 row created.
+
+SQL> 
+SQL> 
+SQL> 
+SQL> 
+SQL> 
+SQL> 
+SQL> SELECT * FROM FP_STUDENT;
+
+STUDENT_ID F_NAME                    L_NAME                                     
+---------- ------------------------- -------------------------                  
+         1 Vanessa                   Ulloa                                      
+         2 Daniel                    Kushner                                    
+         3 John                      Doe                                        
+         4 Betty                     White                                      
+         5 Stevie                    Wonder                                     
+
+SQL> SELECT * FROM FP_PROFESSOR;
+
+PRO PROFESSOR_FNAME           PROFESSOR_LNAME                                   
+--- ------------------------- -------------------------                         
+10  James                     Kirk                                              
+20  Leonard                   McCoy                                             
+30  Montgomery                Scott                                             
+40  Spock                                                                       
+50  Nyota                     Uhura                                             
+
+SQL> SELECT * FROM FP_STU_ENROLL;
+
+STUDENT_ID SECTIO                                                               
+---------- ------                                                               
+         1 123456                                                               
+         1 345678                                                               
+         1 567890                                                               
+         2 123456                                                               
+         2 654321                                                               
+         2 876543                                                               
+         3 901234                                                               
+         3 654321                                                               
+         3 765432                                                               
+         4 678901                                                               
+         4 789012                                                               
+
+STUDENT_ID SECTIO                                                               
+---------- ------                                                               
+         4 890123                                                               
+         5 789012                                                               
+         5 890123                                                               
+         5 901234                                                               
+
+15 rows selected.
+
+SQL> SELECT * FROM FP_CLASS;
+
+SECTIO COURSE_NAM CLASS_DAY  CLASS_TIME                                         
+------ ---------- ---------- --------------------                               
+123456 Math 100   MW         1300-1600                                          
+234567 Math 200   TTH        0800-1200                                          
+345678 Eng 101    F          1200-1700                                          
+456789 Hist 111   MW         1700-2200                                          
+567890 Psych 101  S          0800-1200                                          
+678901 Math 300   MW         0800-1200                                          
+789012 Eng 201    S          0800-1200                                          
+890123 Psych 201  TH         0700-1100                                          
+901234 Hist 211   T          1700-2200                                          
+654321 Eng 301    F          0800-1200                                          
+765432 Bio 101    MW         0800-1200                                          
+
+SECTIO COURSE_NAM CLASS_DAY  CLASS_TIME                                         
+------ ---------- ---------- --------------------                               
+876543 Bio 201    TTH        0800-1200                                          
+
+12 rows selected.
+
+SQL> SELECT * FROM FP_COURSE_DETAILS;
+
+SECTIO PRO                                                                      
+------ ---                                                                      
+123456 30                                                                       
+234567 30                                                                       
+345678 50                                                                       
+456789 10                                                                       
+567890 20                                                                       
+678901 30                                                                       
+789012 50                                                                       
+890123 20                                                                       
+901234 10                                                                       
+654321 50                                                                       
+765432 40                                                                       
+
+SECTIO PRO                                                                      
+------ ---                                                                      
+876543 40                                                                       
+
+12 rows selected.
+
+SQL> SELECT * FROM FP_COURSE;
+
+COURSE_NAM COURSE_SUBJECT                                                       
+---------- --------------------                                                 
+Math 100   Mathematics                                                          
+Math 200   Mathematics                                                          
+Eng 101    English                                                              
+Hist 111   History                                                              
+Psych 101  Psychology                                                           
+Math 300   Mathematics                                                          
+Eng 201    English                                                              
+Psych 201  Psychology                                                           
+Hist 211   History                                                              
+Eng 301    English                                                              
+Bio 101    Science                                                              
+
+COURSE_NAM COURSE_SUBJECT                                                       
+---------- --------------------                                                 
+Bio 201    Science                                                              
+
+12 rows selected.
+
+SQL> 
+SQL> 
+SQL> SPOOL OFF

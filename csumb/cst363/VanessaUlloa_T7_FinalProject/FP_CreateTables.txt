@@ -1,0 +1,203 @@
+SQL> 
+SQL> -- drop tables
+SQL> 
+SQL> DROP TABLE FP_COURSE_DETAILS cascade constraints;
+
+Table dropped.
+
+SQL> DROP TABLE FP_STUDENT cascade constraints;
+
+Table dropped.
+
+SQL> DROP TABLE FP_STU_ENROLL cascade constraints;
+
+Table dropped.
+
+SQL> DROP TABLE FP_COURSE cascade constraints;
+
+Table dropped.
+
+SQL> DROP TABLE FP_CLASS cascade constraints;
+
+Table dropped.
+
+SQL> DROP TABLE FP_PROFESSOR cascade constraints;
+
+Table dropped.
+
+SQL> 
+SQL> 
+SQL> --      begin create tables
+SQL> 
+SQL> CREATE TABLE FP_STUDENT (
+  2  	     student_id NUMBER(3),
+  3  	     f_name CHAR(25),
+  4  	     l_name CHAR(25),
+  5  	     CONSTRAINT pk_s_student_id PRIMARY KEY(student_id)
+  6  );
+
+Table created.
+
+SQL> 
+SQL> CREATE TABLE FP_COURSE (
+  2  	     course_name CHAR(10),
+  3  	     course_subject CHAR(20),
+  4  	     CONSTRAINT pk_course_name PRIMARY KEY(course_name)
+  5  );
+
+Table created.
+
+SQL> 
+SQL> CREATE TABLE FP_CLASS (
+  2  	     section_number CHAR(6),
+  3  	     course_name CHAR(10),
+  4  	     class_day CHAR(10),
+  5  	     class_time CHAR(20),
+  6  	     CONSTRAINT pk_c_section_number PRIMARY KEY(section_number),
+  7  	     CONSTRAINT fk_course_name FOREIGN KEY(course_name) REFERENCES FP_COURSE(course_name)
+  8  );
+
+Table created.
+
+SQL> 
+SQL> CREATE TABLE FP_PROFESSOR (
+  2  	     professor_id CHAR(3),
+  3  	     professor_fname CHAR(25),
+  4  	     professor_lname CHAR(25),
+  5  	     CONSTRAINT pk_professor_id PRIMARY KEY(professor_id)
+  6  );
+
+Table created.
+
+SQL> 
+SQL> CREATE TABLE FP_COURSE_DETAILS (
+  2  	     section_number CHAR(6),
+  3  	     professor_id CHAR(3),
+  4  	     CONSTRAINT pk_section_number PRIMARY KEY(section_number),
+  5  	     CONSTRAINT fk_professor_id FOREIGN KEY(professor_id) REFERENCES FP_PROFESSOR(professor_id)
+  6  );
+
+Table created.
+
+SQL> 
+SQL> CREATE TABLE FP_STU_ENROLL (
+  2  	     student_id NUMBER(3),
+  3  	     section_number CHAR(6),
+  4  	     CONSTRAINT fk_section_number FOREIGN KEY(section_number) REFERENCES FP_CLASS(section_number),
+  5  	     CONSTRAINT fk_student_id FOREIGN KEY(student_id) REFERENCES FP_STUDENT(student_id)
+  6  );
+
+Table created.
+
+SQL> 
+SQL> --      data to tables with sequences
+SQL> 
+SQL> CREATE SEQUENCE student_num_seq
+  2  	     MINVALUE 0
+  3  	     START WITH 0
+  4  	     INCREMENT BY 1;
+
+Sequence created.
+
+SQL> 
+SQL> INSERT INTO FP_STUDENT VALUES(student_num_seq.NEXTVAL,'Vanessa','Ulloa');
+
+1 row created.
+
+SQL> INSERT INTO FP_STUDENT VALUES(student_num_seq.NEXTVAL,'Daniel','Kushner');
+
+1 row created.
+
+SQL> INSERT INTO FP_STUDENT VALUES(student_num_seq.NEXTVAL,'John','Doe');
+
+1 row created.
+
+SQL> INSERT INTO FP_STUDENT VALUES(student_num_seq.NEXTVAL,'Betty','White');
+
+1 row created.
+
+SQL> INSERT INTO FP_STUDENT VALUES(student_num_seq.NEXTVAL,'Stevie','Wonder');
+
+1 row created.
+
+SQL> 
+SQL> DROP SEQUENCE student_num_seq;
+
+Sequence dropped.
+
+SQL> 
+SQL> 
+SQL> 
+SQL> CREATE SEQUENCE prof_num_seq
+  2  	     MINVALUE 0
+  3  	     START WITH 0
+  4  	     INCREMENT BY 10;
+
+Sequence created.
+
+SQL> 
+SQL> INSERT INTO FP_PROFESSOR VALUES(prof_num_seq.NEXTVAL,'James','Kirk');
+
+1 row created.
+
+SQL> INSERT INTO FP_PROFESSOR VALUES(prof_num_seq.NEXTVAL,'Leonard','McCoy');
+
+1 row created.
+
+SQL> INSERT INTO FP_PROFESSOR VALUES(prof_num_seq.NEXTVAL,'Montgomery','Scott');
+
+1 row created.
+
+SQL> INSERT INTO FP_PROFESSOR VALUES(prof_num_seq.NEXTVAL,'Spock','');
+
+1 row created.
+
+SQL> INSERT INTO FP_PROFESSOR VALUES(prof_num_seq.NEXTVAL,'Nyota','Uhura');
+
+1 row created.
+
+SQL> 
+SQL> DROP SEQUENCE prof_num_seq;
+
+Sequence dropped.
+
+SQL> 
+SQL> SELECT * FROM FP_STUDENT;
+
+STUDENT_ID F_NAME                    L_NAME                                     
+---------- ------------------------- -------------------------                  
+         1 Vanessa                   Ulloa                                      
+         2 Daniel                    Kushner                                    
+         3 John                      Doe                                        
+         4 Betty                     White                                      
+         5 Stevie                    Wonder                                     
+
+SQL> SELECT * FROM FP_PROFESSOR;
+
+PRO PROFESSOR_FNAME           PROFESSOR_LNAME                                   
+--- ------------------------- -------------------------                         
+10  James                     Kirk                                              
+20  Leonard                   McCoy                                             
+30  Montgomery                Scott                                             
+40  Spock                                                                       
+50  Nyota                     Uhura                                             
+
+SQL> SELECT * FROM FP_STU_ENROLL;
+
+no rows selected
+
+SQL> SELECT * FROM FP_CLASS;
+
+no rows selected
+
+SQL> SELECT * FROM FP_COURSE_DETAILS;
+
+no rows selected
+
+SQL> SELECT * FROM FP_COURSE;
+
+no rows selected
+
+SQL> 
+SQL> 
+SQL> SPOOL OFF
