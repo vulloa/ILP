@@ -131,7 +131,7 @@
                                         <li>Midterm</li>
                                         <li>Final Project</li>
                                         <ul>
-                                            <li></li>
+                                            <li><a href="https://github.com/vulloa/ILP/tree/master/csumb/cst205/T7%20FINAL%20PROJECT">Github</a></li>
                                             <li><a href="https://www.youtube.com/watch?v=z0wg55Sn8AE&feature=youtu.be
 ">Final Project Video</a></li>
                                         </ul>
