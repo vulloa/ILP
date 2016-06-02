@@ -71,7 +71,7 @@
                                 <p><span>Example Coursework:</span></p>
                                 <p>
                                     <ul>
-                                        <li><a href="">Github</a></li>
+                                        <li><a href="https://github.com/vulloa/ILP/tree/master/csumb/cst363">Github</a></li>
                                     </ul>
                                 </p>
                             </div>
@@ -86,7 +86,7 @@
                                 <li>CST 373: Ethics in Tech & Comm</li>
                                 <ul><li class="csumbSchool">CSUMB</li></ul>
                                 <p><span>Description:</span></p>
-                                <p></p>
+                                <p>Investigates through an ethical perspective how communication technology affects our lives. Discusses individual and institutional values represented through technological choices. Using case studies and current events, explores such issues as intellectual property rights, information access and privacy, and the digital divide.</p>
                                 <p><span>Example Coursework:</span></p>
                                 <p></p>
                             </div>

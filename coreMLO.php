@@ -40,8 +40,8 @@
                                 <p><span>Example Coursework:</span></p>
                                 <p>
                                     <ul>
-                                        <li><a href="https://github.com/vulloa/ILP/blob/master/documents/CST300L_Ulloa_Paper1.pdf">Industry Analysis Paper</a></li>
-                                        <li><a href="https://github.com/vulloa/ILP/blob/master/documents/CST300L_Ulloa_EthicsPaper.pdf">Ethics Paper</a></li>
+                                        <li><a href="https://github.com/vulloa/ILP/blob/master/csumb/cst300/CST300L_Ulloa_Paper1.pdf">Industry Analysis Paper</a></li>
+                                        <li><a href="https://github.com/vulloa/ILP/blob/master/csumb/cst300/CST300L_Ulloa_EthicsPaper.pdf">Ethics Paper</a></li>
                                     </ul>
                                 </p>
                             </div>
@@ -54,18 +54,21 @@
                     	<ul>
                             <div class="classDiv">
                         	    <li><span>CST 231: Problem Solving & Programming C++</span></li>
+                                <ul><li class="otherSchool">CO SCI 440 @ Los Angeles Mission College</li></ul>
                                 <p><span>Description:</span></p>
                                 <p>This is an introductory programming course to develop problem-solving techniques for numerical and non-numerical problems from various disciplines. Students will design the solution to each problem and implement it in the C++ programming language. Coverage includes introduction to computer system, C++ basics, flow control, functions, I/O streams, arrays, strings, and classes.</p>
-                                <p><span>Example Coursework:</span></p>
-                                <p></p>
                             </div>
                             <div class="classDiv">
                                 <li><span>CST 238: Introduction to Data Structures</span></li>
-                                <ul><li class="otherSchool">CO SCI 440 @ Los Angeles Mission College</li></ul>
+                                <ul><li class="otherSchool">CO SCI 436 @ Los Angeles Mission College</li></ul>
                                 <p><span>Description:</span></p>
                                 <p>Provides students with intermediate-level programming skills to make it possible for them to write clear, efficient, and high-quality code. Students learn basic data structures such as array, list, stack, queue, and tree. They also acquire several basic algorithms in programming such as searching, sorting, and recursion. Furthermore, students learn in-depth knowledge of C++ programming language such as classes, pointers, and dynamic memory management.</p>
                                 <p><span>Example Coursework:</span></p>
-                                <p></p>
+                                <p>
+                                    <ul>
+                                        <li><a href="">Final Project</a></li>
+                                    </ul>
+                                </p>
                             </div>
                         </ul>
                     </span>
@@ -94,11 +97,9 @@
                             </div>
                             <div class="classDiv">
                                 <li><span>MATH 370: Logic & Computation</span></li>
-                                <ul><li class="otherSchool"></li></ul>
+                                <ul><li class="csumbSchool">CSUMB</li></ul>
                                 <p><span>Description:</span></p>
                                 <p>An advanced study of logic and discrete structures that have application in computer science. Includes logic, propositional and predicate calculus, proof structures, algorithms, and complexity. Emphasizes applications to core areas of computer science, such as computer architecture, programming languages, the theory of computation, artificial intelligence, software engineering, and relational databases.</p>
-                                <p><span>Example Coursework:</span></p>
-                                <p></p>
                             </div>
                         </ul>
                     </span>

@@ -1,0 +1,106 @@
+Please enter a File to read:	
+
+Letter Frequency: 
+	E	54
+	R	41
+	O	38
+	A	34
+	T	34
+	N	30
+	S	27
+	I	25
+	M	24
+	G	20
+	H	20
+	P	18
+	L	13
+	D	11
+	U	11
+	C	10
+	F	9
+	W	9
+	Y	8
+	B	6
+	K	5
+	V	3
+	X	2
+	J	0
+	Q	0
+	Z	0
+
+Word Frequency: 
+	Any 1
+	Few 1
+	However 5
+	Most 1
+	Often 2
+	The 1
+	Vanessa 1
+	a 3
+	and 1
+	any 2
+	be 2
+	by 2
+	cannot 1
+	care 1
+	correctly 1
+	debugging 2
+	designing 2
+	difficult 1
+	engaged 1
+	even 1
+	experienced 2
+	finished 5
+	for 1
+	good 1
+	great 2
+	has 1
+	hence 1
+	himself 2
+	his 1
+	how 2
+	in 3
+	interpret 1
+	is 2
+	it 1
+	knows 1
+	look 1
+	may 1
+	means 1
+	months 1
+	much 4
+	must 1
+	once 1
+	only 1
+	or 1
+	others 1
+	output 1
+	people 1
+	problem 1
+	program 1
+	programmer 1
+	programs 1
+	really 1
+	results 2
+	said 1
+	same 1
+	see 1
+	six 1
+	spent 1
+	tackling 1
+	that 1
+	the 1
+	time 1
+	to 1
+	trouble 1
+	use 1
+	what 1
+	working 1
+	writing 1
+
+FINAL PROJECT RESULTS: 
+	How Many Sentences6
+	Total Words: 96
+	Total Characters: 464
+	Average number of letters: 4
+	Average number of words: 16
