@@ -39,7 +39,7 @@
                                 <p>Provides students with the fundamental concepts to develop large-scale software, focusing on the object-oriented programming techniques. Coverage includes the introduction to Java programming language, object-oriented programming, software life cycle and development processes, requirements analysis, and graphical user interface development.</p>
                                 <p><span>Example Coursework:</span></p>
                                 <p>
-                                    <li><a href="">Card Game Github</a></li>
+                                    <li><a href="https://github.com/vulloa/ILP/tree/master/csumb/cst338/A6P3">Card Game Github</a></li>
                                     <li><a href="https://github.com/vulloa/ILP/tree/master/csumb/cst338/Final_Project">Final Project Github</a></li>
                                 </p>
                             </div>
