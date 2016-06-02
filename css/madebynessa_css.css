@@ -166,6 +166,22 @@ body {
 	list-style-type: circle;
 }
 
+.csumbSchool {
+	font-style: italic;
+	font-size: 10px;
+	list-style-type: circle;
+	color: #000066;
+}
+
+.classDiv {
+	border: 1px #006600 solid;
+	width: 50%;
+}
+
+.classDiv span {
+	font-weight: bold;
+}
+
 /*	FOOTER */
 
 #footer	{
