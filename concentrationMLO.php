@@ -32,7 +32,16 @@
                 	Advanced Programming
                     <span>
                     	<ul>
-                        	<li><a href="https://github.com/vulloa/ILP/tree/master/csumb/cst338">CST 338: Software Design</a></li>
+                            <div class="classDiv">
+                        	    <li><span>CST 338: Software Design</span></li>
+                                <ul><li class="csumbSchool">CSUMB</li></ul>
+                                <p><span>Description:</span></p>
+                                <p></p>
+                                <p><span>Example Coursework:</span></p>
+                                <p>
+                                    <li><a href="https://github.com/vulloa/ILP/tree/master/csumb/cst338/Final_Project">Final Project</a></li>
+                                </p>
+                            </div>
                         </ul>
                     </span>
                 </dd>
@@ -40,7 +49,14 @@
                 	Specialized Programming
                     <span>
                     	<ul>
-                        	<li><a href="https://github.com/vulloa/ILP/tree/master/csumb/cst336">CST 336: Internet Programming</a></li>
+                            <div class="classDiv">
+                                <li><span>CST 336: Internet Programming</span></li>
+                                <ul><li class="csumbSchool">CSUMB</li></ul>
+                                <p><span>Description:</span></p>
+                                <p></p>
+                                <p><span>Example Coursework:</span></p>
+                                <p></p>
+                            </div>
                         </ul>
                     </span>
                 </dd>
@@ -48,7 +64,14 @@
                 	Planning, Analysis, and Production of Software Applications
                     <span>
                     	<ul>
-                        	<li><a href="https://github.com/vulloa/ILP/tree/master/csumb/cst438/Team11_Wormhole">CST 438: Software Engineering</a></li>
+                            <div class="classDiv">
+                                <li><span>CST 438: Software Engineering</span></li>
+                                <ul><li class="csumbSchool">CSUMB</li></ul>
+                                <p><span>Description:</span></p>
+                                <p></p>
+                                <p><span>Example Coursework:</span></p>
+                                <p></p>
+                            </div>
                         </ul>
                     </span>
                 </dd>
