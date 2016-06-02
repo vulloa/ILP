@@ -40,8 +40,8 @@
                                 <p><span>Example Coursework:</span></p>
                                 <p>
                                     <ul>
-                                        <li>Industry Analysis Paper</li>
-                                        <li>Ethics Paper</li>
+                                        <li><a href="https://github.com/vulloa/ILP/blob/master/documents/CST300L_Ulloa_Paper1.pdf">Industry Analysis Paper</a></li>
+                                        <li><a href="https://github.com/vulloa/ILP/blob/master/documents/CST300L_Ulloa_EthicsPaper.pdf">Ethics Paper</a></li>
                                     </ul>
                                 </p>
                             </div>
@@ -64,7 +64,7 @@
                                 <ul><li class="otherSchool">CO SCI 440 @ Los Angeles Mission College</li></ul>
                                 <p><span>Description:</span></p>
                                 <p>Provides students with intermediate-level programming skills to make it possible for them to write clear, efficient, and high-quality code. Students learn basic data structures such as array, list, stack, queue, and tree. They also acquire several basic algorithms in programming such as searching, sorting, and recursion. Furthermore, students learn in-depth knowledge of C++ programming language such as classes, pointers, and dynamic memory management.</p>
-                                <p><span></span></p>
+                                <p><span>Example Coursework:</span></p>
                                 <p></p>
                             </div>
                         </ul>
@@ -79,8 +79,6 @@
                                 <ul><li class="otherSchool">CSIS 213 @ MSJC</li></ul>
                                 <p><span>Description:</span></p>
                                 <p>Includes sets and sequences, elementary logic, relations, induction, counting principles, discrete probability, Boolean algebra, logic networks, matrices, graph theory, and trees. Applies these topics to real life and branches of science, particularly computer science.</p>
-                                <p><span></span></p>
-                                <p></p>
                             </div>
                             <div class="classDiv">
                                 <li>MATH 150: Calculus I</li>
@@ -99,7 +97,7 @@
                                 <ul><li class="otherSchool"></li></ul>
                                 <p><span>Description:</span></p>
                                 <p>An advanced study of logic and discrete structures that have application in computer science. Includes logic, propositional and predicate calculus, proof structures, algorithms, and complexity. Emphasizes applications to core areas of computer science, such as computer architecture, programming languages, the theory of computation, artificial intelligence, software engineering, and relational databases.</p>
-                                <p><span></span></p>
+                                <p><span>Example Coursework:</span></p>
                                 <p></p>
                             </div>
                         </ul>
@@ -128,7 +126,18 @@
                                 <p><span>Description:</span></p>
                                 <p>Introduces design, creation, and manipulation of interactive applications and electronic media for communication purpose. Focuses on creating media, understanding media concepts, and manipulating the created media using basic programming concepts of control flow, functions, expressions and data types in the Python language. Students acquire a basic understanding for digital media formats, how to design, create such media using basic programming skills.</p>
                                 <p><span>Example Coursework:</span></p>
-                                <p></p>
+                                <p>
+                                    <ul>
+                                        <li>Midterm</li>
+                                        <li>Final Project</li>
+                                        <ul>
+                                            <li></li>
+                                            <li><a href="https://www.youtube.com/watch?v=z0wg55Sn8AE&feature=youtu.be
+">Final Project Video</a></li>
+                                        </ul>
+                                        <li>Image Portfolio</li>
+                                    </ul>
+                                </p>
                             </div>
                         </ul>
                     </span>
