@@ -15,12 +15,18 @@ $dbname = "db_9b4669_teampr";
 $username = "9b4669_teampr";
 $password = "team7336";
 **/
-
+/**
 #   LOCALHOST DETAILS (personal computer)
 $host = "localhost";
 $dbname = "cst336";
 $username = "root";
 $password = "vanessa";
+**/
+#   LOCALHOST DETAILS (work laptop)
+$host = "localhost";
+$dbname = "csumb_server";
+$username = "root";
+$password = "team11";
 
 /**
 #   the way that we were shown

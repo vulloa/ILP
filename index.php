@@ -69,7 +69,7 @@
         <p>
             <ul>
                 <li><a href="https://www.linkedin.com/in/vanessa-ulloa-8a131093">LinkedIn</a></li>
-                <li><a href="documents/VanessaUlloaResume_25May2016.doc">Resume</a></li>
+                <li><a href="documents/VanessaUlloaResume_25May2016.pdf">Resume</a></li>
             </ul>
         </p>
         <img src="images/csumb_logo.png" width="300" height="179" id="logo" />

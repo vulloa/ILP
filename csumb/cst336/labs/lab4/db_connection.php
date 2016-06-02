@@ -2,12 +2,12 @@
 #	php file for database connection
 
 #	csumb default
-
+/**
 $host="localhost";
 $dbname="ullo4940";
 $username="ullo4940";
 $password="vanessa336";
-
+**/
 
 #	localhost (xampp)
 #$host="localhost";
@@ -22,6 +22,12 @@ $dbname="";
 $username="";
 $password="";
 **/
+
+#   LOCALHOST DETAILS (work laptop)
+$host = "localhost";
+$dbname = "csumb_server";
+$username = "root";
+$password = "team11";
 
 #	establish database connection using a try/catch so errors can be displayed
 

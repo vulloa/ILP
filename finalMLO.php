@@ -41,6 +41,7 @@
                     <span>
                     	<ul>
                         	<li>CST 234: Operating Systems</li>
+                            <ul><li class="otherSchool"></li></ul>
                             <li>CST 311: Intro to Comp Net</li>
                             <li>CST 363: Database Management</li>
                         </ul>

@@ -1,10 +1,10 @@
 <?php
 
 //	default
-$host = "localhost";
-$dbname = "ullo4940";
-$username = "ullo4940";
-$password = "vanessa336";
+#$host = "localhost";
+#$dbname = "ullo4940";
+#$username = "ullo4940";
+#$password = "vanessa336";
 //	temp database until CSUMB hosting DB lets me log in
 #$host = "veulloa.fatcowmysql.com";
 #$dbname = "lab4";
@@ -20,6 +20,13 @@ $password = "vanessa336";
 #$dbname = "lab4";
 #$username = "root";
 #$password = "vanessa336";
+
+#   LOCALHOST DETAILS (work laptop)
+$host = "localhost";
+$dbname = "csumb_server";
+$username = "root";
+$password = "team11";
+
 
 //	establishes database connection
 //$dbConn = new PDO("mysql:host=$host;dbname=$dbname",$username,$password);
