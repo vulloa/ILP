@@ -34,7 +34,7 @@
                     	<ul>
                             <div class="classDiv">
                         	    <li><a href="">CST 361S: CS and Community Service</a></li>
-                                <ul><li class="otherSchool"></li></ul>
+                                <ul><li class="csumbSchool">CSUMB</li></ul>
                                 <p><span>Description:</span></p>
                                 <p>A service learning course in which students apply computer literacy, multimedia design, and technology to assist schools, nonprofit organizations, and community agencies. The theme for the course is "Bridging the Digital Divide." Note: students must participate in required service placements with hours to be arranged. Students must be able to create and manage a web site.</p>
                                 <p><span>Example Coursework:</span></p>
