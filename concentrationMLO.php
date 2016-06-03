@@ -59,7 +59,6 @@
                                 <p>
                                     <ul>
                                         <li><a href="csumb/cst336/index.html">CST 336 Home Page</a></li>
-                                        <li><a href="csumb/cst336/assignments/A2/index.html">Featured Assignment</a></li>
                                         <li><a href="csumb/cst336/team_project/index.php">Team Project</a></li>
                                     </ul>
                                 </p>
