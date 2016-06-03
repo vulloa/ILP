@@ -1,33 +1,11 @@
 <?php
 #	php file for database connection
 
-#	csumb default
-/**
-$host="localhost";
-$dbname="ullo4940";
-$username="ullo4940";
-$password="vanessa336";
-**/
-
-#	localhost (xampp)
-#$host="localhost";
-#$dbname="lab4";
-#$username="root";
-#$password="vanessa336";
-
-#	external sql source (fatcow or mywindowshosting)
-/**
-$host="localhost";
-$dbname="";
-$username="";
-$password="";
-**/
-
-#   LOCALHOST DETAILS (work laptop)
-$host = "localhost";
-$dbname = "csumb_server";
-$username = "root";
-$password = "team11";
+#  MYWINDOWSHOSTING host details
+$host = "MYSQL5011.myWindowsHosting.com";
+$dbname = "db_9b4669_csumb";
+$username = "9b4669_csumb";
+$password = "csumb2016";
 
 #	establish database connection using a try/catch so errors can be displayed
 

@@ -1,27 +1,12 @@
 <?php
 #   this page contains the database connection details
 
-/**
-#   CSUMB host default values
-$host = "localhost";
-$dbname = "ullo4940";
-$username = "ullo4940";
-$password = "vanessa336";
-**/
-
 #  MYWINDOWSHOSTING host details
-$host = "MYSQL5015.myWindowsHosting.com";
-$dbname = "db_9b4669_cst336";
-$username = "9b4669_cst336";
-$password = "vanessa336";
+$host = "MYSQL5011.myWindowsHosting.com";
+$dbname = "db_9b4669_csumb";
+$username = "9b4669_csumb";
+$password = "csumb2016";
 
-/**
-#   LOCALHOST DETAILS (personal computer)
-$host = 'localhost';
-$dbname = 'cst336';
-$username = 'root';
-$password = 'vanessa';
-**/
 /**
 #   the way that we were shown
     #   establishes a new database connection

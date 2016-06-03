@@ -11,10 +11,10 @@
 #$username = "veucst336";
 #$password = "vanessa336";
 
-#$host = "MYSQL5002.myWindowsHosting.com";
-#$dbname = "db_9b4669_lab4";
-#$username = "9b4669_lab4";
-#$password = "vanessa336";
+$host = "MYSQL5011.myWindowsHosting.com";
+$dbname = "db_9b4669_csumb";
+$username = "9b4669_csumb";
+$password = "csumb2016";
 
 #$host = "localhost";
 #$dbname = "lab4";
@@ -22,10 +22,10 @@
 #$password = "vanessa336";
 
 #   LOCALHOST DETAILS (work laptop)
-$host = "localhost";
-$dbname = "csumb_server";
-$username = "root";
-$password = "team11";
+#$host = "localhost";
+#$dbname = "csumb_server";
+#$username = "root";
+#$password = "team11";
 
 
 //	establishes database connection
