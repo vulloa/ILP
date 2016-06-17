@@ -65,7 +65,7 @@
                                 <p><span>Example Coursework:</span></p>
                                 <p>
                                     <ul>
-                                        <li>Need stuff here</li>
+                                        <li><a href=https://github.com/vulloa/ILP/tree/master/csumb/cst311">Sample Coursework</a></li>
                                     </ul>
                                 </p>
                             </div>
@@ -96,7 +96,8 @@
                                 <p><span>Example Coursework:</span></p>
                                 <p>
                                     <ul>
-                                        <li>Need stuff here</li>
+                                        <li><a href="https://github.com/vulloa/ILP/blob/master/csumb/cst373/Ulloa_paper1.pdf">Privacy Paper</a></li>
+                                        <li><a href="https://github.com/vulloa/ILP/blob/master/csumb/cst373/ulloa_paper3.pdf">Ethics Paper</a></li>
                                     </ul>
                                 </p>
                             </div>
