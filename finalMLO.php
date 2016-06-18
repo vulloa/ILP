@@ -117,7 +117,7 @@
                                 <p>
                                     <ul>
                                         <li><a href="https://github.com/vulloa/ILP/blob/master/csumb/cst499/VEU_CST499_Final%20Research%20Proposal.pdf">Capstone Proposal</a></li>
-                                        <li><a href="">Capstone Final Report</a></li>
+                                        <li><a href="https://github.com/vulloa/ILP/blob/master/csumb/cst499/VEU_CST499_FinalReport.pdf">Capstone Final Report</a></li>
                                     </ul>
                                 </p>
                             </div>
